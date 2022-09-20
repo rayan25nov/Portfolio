@@ -8,14 +8,13 @@ const NavbarComponent = () => {
   return (
     <Navbar
       style={{
-        backgroundImage: "linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%)",
-        color: "white",
+        background: "linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%)",
       }}
       sticky="top"
       expand="lg"
     >
-      <Container fluid>
-        <Navbar.Brand href="#home" className="fs-2">
+      <Container className="text-light">
+        <Navbar.Brand href="#home" className="fs-2 px-2">
           Personal-Portfolio
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -24,13 +23,13 @@ const NavbarComponent = () => {
             <Nav.Link className="mx-3" href="#home">
               Home
             </Nav.Link>
-            <Nav.Link className="mx-3" href="#projects">
-              Skills
-            </Nav.Link>
-            <Nav.Link className="mx-3" href="#skills">
+            <Nav.Link className="mx-3" href="#education">
               Education
             </Nav.Link>
-            <Nav.Link className="mx-3" href="#education">
+            <Nav.Link className="mx-3" href="#skills">
+              Skills
+            </Nav.Link>
+            <Nav.Link className="mx-3" href="#projects">
               Projects
             </Nav.Link>
             <Nav.Link className="mx-3" href="#contact">
