@@ -14,14 +14,18 @@ const Home = () => {
       id="home"
       style={{ background: "#D2DAFF", color: "#6F38C5" }}
     >
-      <Row className="justify-content-center align-items-center pt-5">
-        <Col xs={5} start={50} className="text-center justify-content-end">
+      <Row
+        className="justify-content-center align-items-center pt-5"
+        style={{ background: "#D2DAFF", color: "#6F38C5" }}
+      >
+        <Col xs={5} start={50} className="text-center justify-content-end pb-3">
           <Image
             fluid
             src={profile}
             alt="profile"
             style={{
               borderRadius: "50%",
+              border: "5px solid #9C9EFE",
             }}
           />
         </Col>

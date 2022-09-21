@@ -9,11 +9,12 @@ const NavbarComponent = () => {
     <Navbar
       style={{
         background: "linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%)",
+        color: "#367E18",
       }}
       sticky="top"
       expand="lg"
     >
-      <Container className="text-light">
+      <Container fluid >
         <Navbar.Brand href="#home" className="fs-2 px-2">
           Personal-Portfolio
         </Navbar.Brand>
