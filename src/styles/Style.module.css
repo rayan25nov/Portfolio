@@ -4,12 +4,32 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* ////////////////////////////////////////////////// */
+@media (max-width: 540px) {
+  .content,
+  .home,
+  .skills {
+    overflow-y: scroll;
+  }
+}
+/* /////////////////////////////////////////////////////////////////////////////// */
+/* Home */
+/* /////////////////////////////////////////////////////////////////////////////// */
+.home {
+  background-color: #d2daff;
+  color: #6f38c5;
+}
+.image {
+  border-radius: 50%;
+  border: 5px solid #9c9efe;
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
 /* Education */
+/* //////////////////////////////////////////////////////////////////////////////// */
 .content {
   font-family: "roboto";
   background-color: #fdeedc;
 }
+
 .sectionTitle {
   text-align: center;
   padding: 30px 0 10px;
@@ -58,4 +78,39 @@
   top: 0;
   background: #fff;
   border: 2px solid #ffb727;
+}
+
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+.skills {
+  background-color: #ccf2f4;
+  color: #3490de;
+}
+.skillsTitle {
+  text-align: center;
+  padding: 40px;
+  position: relative;
+}
+.progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+  margin: 5%;
+}
+
+.progress span {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+}
+
+.val {
+  float: right;
+  font-style: normal;
 }

@@ -4,32 +4,26 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import profile from "../assets/profile.jpg";
-import "@fontsource/roboto";
+import Styles from "../styles/Style.module.css";
 
 const Home = () => {
   return (
     <Container
       fluid
-      className="pt-5 vh-100"
+      className={`${Styles.home} ${"vh-100"} ${"pt-5"}`}
       id="home"
-      style={{ background: "#D2DAFF", color: "#6F38C5" }}
     >
       <Row
-        className="justify-content-center align-items-center pt-5"
-        style={{ background: "#D2DAFF", color: "#6F38C5" }}
+        className={`${"justify-content-center"} ${"align-items-center"} ${"vh-100"}`}
       >
-        <Col xs={5} start={50} className="text-center justify-content-end pb-3">
-          <Image
-            fluid
-            src={profile}
-            alt="profile"
-            style={{
-              borderRadius: "50%",
-              border: "5px solid #9C9EFE",
-            }}
-          />
+        <Col
+          xs={5}
+          start={50}
+          className={`${"text-center"} ${"justify-content-end"}`}
+        >
+          <Image fluid src={profile} alt="profile" className={Styles.image} />
         </Col>
-        <Col md={5} className="text-center text-md-start mx-5">
+        <Col sm={5} className="text-center text-md-start mx-5">
           <h1>Hi I'm</h1>
           <p className="display-2">Rayan Ahmad</p>
           <p className="my-5 lead fs-4" style={{ fontFamily: "roboto" }}>
