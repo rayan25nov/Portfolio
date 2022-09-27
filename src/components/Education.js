@@ -6,11 +6,7 @@ import Styles from "../styles/Style.module.css";
 
 const Education = () => {
   return (
-    <Container
-      fluid
-      id="education"
-      className={`${Styles.content} ${"py-5"} ${"vh-100"}`}
-    >
+    <Container fluid id="education" className={`${Styles.content} ${"py-5"}`}>
       <Row className="text-center text-md-start mx-5 lead py-2">
         <Col pt={5}>
           <div className={Styles.sectionTitle}>

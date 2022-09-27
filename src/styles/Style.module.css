@@ -4,13 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-@media (max-width: 540px) {
-  .content,
-  .home,
-  .skills {
-    overflow-y: scroll;
-  }
-}
+
 /* /////////////////////////////////////////////////////////////////////////////// */
 /* Home */
 /* /////////////////////////////////////////////////////////////////////////////// */
@@ -113,4 +107,28 @@
 .val {
   float: right;
   font-style: normal;
+}
+/*--------------------------------------------------------------
+# project
+--------------------------------------------------------------*/
+.project {
+  background: #eeeeee;
+}
+.projectTitle {
+  text-align: center;
+  padding: 30px 0 10px;
+  position: relative;
+}
+.projectTitle h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #7dce13;
+  position: relative;
+  z-index: 2;
+}
+.project_item {
+  margin-bottom: 4%;
 }

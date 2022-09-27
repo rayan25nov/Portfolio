@@ -10,7 +10,7 @@ const Skills = () => {
     <Container
       fluid
       id="skills"
-      className={`${"py-5"} ${"vh-100"} ${Styles.skills} ${"mx-auto"}`}
+      className={`${"py-5"} ${Styles.skills} ${"mx-auto"}`}
     >
       <Row>
         <div className={`${Styles.skillsTitle}`}>
@@ -18,7 +18,7 @@ const Skills = () => {
         </div>
       </Row>
       <Row
-        className={`${"lead"} ${"px-3"} ${"justify-content-center"} ${"align-items-center"}`}
+        className={`${"lead"} ${"px-3"} ${"pb-5"} ${"justify-content-center"} ${"align-items-center"}`}
       >
         <Col lg={5} xs={12}>
           <div className={Styles.progress}>
