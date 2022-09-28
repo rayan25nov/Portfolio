@@ -79,12 +79,17 @@
 --------------------------------------------------------------*/
 .skills {
   background-color: #ccf2f4;
-  color: #3490de;
 }
 .skillsTitle {
   text-align: center;
   padding: 40px;
   position: relative;
+}
+.skillsTitle h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #3490de;
 }
 .progress {
   height: 60px;
@@ -116,19 +121,94 @@
 }
 .projectTitle {
   text-align: center;
-  padding: 30px 0 10px;
+  padding: 30px 0;
   position: relative;
 }
 .projectTitle h2 {
-  font-size: 32px;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 20px;
-  padding-bottom: 0;
   color: #7dce13;
-  position: relative;
-  z-index: 2;
 }
 .project_item {
+  position: relative;
   margin-bottom: 4%;
+  overflow: hidden;
+}
+.project_item .img {
+  transition: all ease-in-out 0.7s;
+  background-color: #ffffff;
+  padding: 2%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.project_item:hover .img {
+  transform: scale(1.2);
+}
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+
+.contactTitle {
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+}
+.contactTitle h2 {
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #34b7a7;
+}
+
+.contact i {
+  font-size: 20px;
+  color: #34b7a7;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #effbf9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #222222;
+}
+
+.contact p {
+  padding: 0 0 0 60px;
+  margin-bottom: auto;
+  font-size: 14px;
+  color: #555555;
+}
+
+.email,
+.phone {
+  margin-top: 40px;
+}
+
+.email:hover i,
+.address:hover i,
+.phone:hover i {
+  background: #34b7a7;
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer {
+  background: #e9e8e6;
+  padding: 30px 0;
+  color: #222222;
+  font-size: 14px;
+  text-align: center;
 }

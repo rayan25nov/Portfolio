@@ -23,7 +23,7 @@ const Home = () => {
         >
           <Image fluid src={profile} alt="profile" className={Styles.image} />
         </Col>
-        <Col sm={5} className="text-center text-md-start mx-5">
+        <Col sm={5} className="text-center text-md-start mx-5 order-lg-first">
           <h1>Hi I'm</h1>
           <p className="display-2">Rayan Ahmad</p>
           <p className="my-5 lead fs-4" style={{ fontFamily: "roboto" }}>
