@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import profile from "../assets/profile.jpg";
+import profile from "../assets/profile.jpeg";
 import Styles from "../styles/Style.module.css";
 
 const Home = () => {
@@ -27,10 +27,12 @@ const Home = () => {
           <h1>Hi I'm</h1>
           <p className="display-2">Rayan Ahmad</p>
           <p className="my-5 lead fs-4" style={{ fontFamily: "roboto" }}>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis.
+            I am a driven and ambitious student with a passion for programming
+            and web development. I have experience with languages such as
+            JavaScript, Java and C++, and have developed a number of basic
+            programs and websites on my own. I am always looking for new
+            opportunities to learn and grow as a developer, and believe that my
+            dedication and determination will help me succeed in this field.
           </p>
         </Col>
       </Row>

@@ -1,12 +1,22 @@
 import React from "react";
+import { Button, Modal } from "react-bootstrap";
 
-const ProjectDetails = () => {
+const ProjectDetails = (props) => {
   return (
-    <Container
-      fluid
-      id="project-details"
-      className={`${"py-5"} ${"px-5"}`}
-    ></Container>
+    <Modal {...props}>
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Project Details
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <p>Rayan Ahmad</p>
+      </Modal.Body>
+
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
   );
 };
 
