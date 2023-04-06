@@ -13,7 +13,7 @@ const Contact = () => {
   const [modalShow, setModalShow] = useState(false);
   const [resume, setResume] = useState(null);
   useEffect(() => {
-    getDownloadURL(ref(storage, "Rayan_Ahmad_CV.pdf")).then((url) => {
+    getDownloadURL(ref(storage, "Rayan_Resume.pdf")).then((url) => {
       setResume(url);
     });
   }, []);

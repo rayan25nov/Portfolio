@@ -8,13 +8,10 @@ import Styles from "../styles/Style.module.css";
 
 const Home = () => {
   return (
-    <Container
-      fluid
-      className={`${Styles.home} ${"vh-100"} ${"pt-5"}`}
-      id="home"
-    >
+    <Container fluid className={`${Styles.home}  ${"pt-5"}`} id="home">
       <Row
-        className={`${"justify-content-center"} ${"align-items-center"} ${"vh-100"}`}
+        className={`${"justify-content-center"} ${"align-items-center"} ${"pt-5"}
+        ${Styles.home_row}`}
       >
         <Col
           xs={5}
@@ -26,7 +23,7 @@ const Home = () => {
         <Col sm={5} className="text-center text-md-start mx-5 order-lg-first">
           <h1>Hi I'm</h1>
           <p className="display-2">Rayan Ahmad</p>
-          <p className="my-5 lead fs-4" style={{ fontFamily: "roboto" }}>
+          <p className="my-5 lead fs-4 h6" style={{ fontFamily: "roboto" }}>
             I am a driven and ambitious student with a passion for programming
             and web development. I have experience with languages such as
             JavaScript, Java and C++, and have developed a number of basic

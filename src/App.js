@@ -5,16 +5,19 @@ import Home from "./components/Home";
 import NavbarComponent from "./components/NavbarComponent";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Styles from "./styles/Style.module.css";
 
 function App() {
   return (
     <div>
-      <NavbarComponent />
-      <Home />
-      <Education />
-      <Skills />
-      <Projects />
-      <Contact />
+      <div className={Styles.app_navbar}>
+        <NavbarComponent />
+      </div>
+        <Home />
+        <Education />
+        <Skills />
+        <Projects />
+        <Contact />
     </div>
   );
 }

@@ -7,7 +7,7 @@ import Styles from "../styles/Style.module.css";
 
 const NavbarComponent = () => {
   return (
-    <Navbar className={Styles.navbar} sticky="top" expand="lg">
+    <Navbar fluid className={Styles.navbar} expand="lg">
       <Container fluid>
         <Navbar.Brand href="#home" className="fs-2 px-2">
           Personal-Portfolio

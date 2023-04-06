@@ -16,13 +16,13 @@ const Projects = () => {
     <Container
       fluid
       id="projects"
-      className={`${Styles.project} ${"py-5"} ${"px-5"}`}
+      className={`${Styles.project} ${"py-5"} ${"px-5"} ${Styles.project_height}`}
     >
       <Row className={`${Styles.projectTitle}`}>
         <h2 className="fs-1">Projects</h2>
       </Row>
       <Row
-        className={`${"lead"} ${"justify-content-center"} ${"align-items-center"}`}
+        className={`${"lead"} ${"justify-content-center"} ${"align-items-center"} {"mx-auto}`}
       >
         <Col className={`${Styles.project_item}`} lg={4} md={6}>
           <Image
